@@ -1,4 +1,4 @@
-Here is the minimal reproducible app for our problem at @maxsystems
+Here is the minimal reproducible app for our problem
 
 ### How to run
 
