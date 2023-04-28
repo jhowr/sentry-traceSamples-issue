@@ -107,6 +107,7 @@ module.exports = {
       }
     },
     shouldReportErrors: true,
+    ignoreTransactions: ['MyBooks']
   }),
   requestDidStart
 }
