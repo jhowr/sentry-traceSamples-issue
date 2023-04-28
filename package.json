@@ -1,0 +1,22 @@
+{
+  "name": "sentry-transactions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vc-micro -s -p 4000 --disable-helpers"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@sentry/integrations": "^7.50.0",
+    "@sentry/node": "^7.50.0",
+    "apollo-server-micro": "^2.25.4",
+    "graphql": "^14.7.0",
+    "micro-cors": "^0.1.1",
+    "micro-vercel": "^1.0.1"
+  }
+}

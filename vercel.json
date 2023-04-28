@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "scope": "maxdigital",
+  "functions": {
+    "api/graphql/index.js": {
+      "memory": 3008
+    }
+  },
+  "rewrites": [
+    { "source": "/graphql", "destination": "/api/graphql/index.js" },
+    {
+      "source": "/.well-known/max/server-health",
+      "destination": "/api/graphql/index.js"
+    }
+  ]
+}
