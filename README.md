@@ -32,6 +32,6 @@ query MyBooks {
 
 After had performing this, you'll see that transaction was logged properly in Sentry, like this:
 
-[image logged transaction]
+![image](https://user-images.githubusercontent.com/1730922/235182162-db65e53d-4e77-423e-8cdb-1677c0ae0fb5.png)
 
 So far so good, you'll see that the operation name look good as well, however we want customize the samples by operation name using the `tracesSampler` prop at [line 100](plugins/sentry.js#L100), but inside this function we are not able to get the proper operation name, and even using the `ignoreTransactions` like at [line 110](plugins/sentry.js#L110) to ignore same transaction we want, it doesn't works.
